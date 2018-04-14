@@ -1,0 +1,16 @@
+{
+    "require": {
+        "slim/slim": "^3.9",
+        "slim/php-view": "^2.2",
+        "monolog/monolog": "^1.23",
+        "robmorgan/phinx": "^0.5.1",
+        "symfony/cache": "^3.4",
+        "predis/predis": "^1.1",
+        "php-amqplib/php-amqplib": ">=2.6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "": ["lib/","store/","channel/"]
+        }
+    }
+}
